@@ -113,7 +113,7 @@
             width: 250px;
         }
 
-      
+
 
         /* Styles pour l'image d'accueil avec texte */
 
@@ -204,20 +204,20 @@
         .layout .card {
             width: 51%;
             margin-bottom: 100px;
+            border: 1px solid white;
             /*  display: grid;
             grid-template-rows: repeat(5, auto); */
             /* grid-template-columns: repeat(2, 1fr); */
             /* gap: 3% 10%; */
         }
-        .layout{
+
+        .layout {
             margin: 0 10px;
         }
 
         /* Styles pour la section "Nos Services" */
         .services {
             width: 100%;
-            
-            background-color: blueviolet;
 
         }
 
@@ -281,7 +281,7 @@
             /* width: 315px; */
 
             /* padding-bottom: 200%; */
-            background-color: #464141;
+
         }
 
         .contact-texte h2 {
@@ -305,36 +305,39 @@
             text-align: center;
             margin-bottom: 1rem;
         }
+
         @media screen and (min-width:768px) {
 
-footer ul {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
+            footer ul {
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+            }
 
-footer .contact-texte {
-    margin-bottom: 100px;
-}
+            footer .contact-texte {
+                margin-bottom: 100px;
+            }
 
-.o-contact {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 20px;
-}
+            .o-contact {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                gap: 20px;
+            }
 
-footer .container-fluid div {
-    margin-bottom: 10%;
-}
-.Contact{
-    padding-bottom: 250vh;
-    background-color: #c23030;
-}
-.Contact {
-margin-top:0;
-}
-}
+            footer .container-fluid div {
+                margin-bottom: 10%;
+            }
+
+            .Contact {
+                padding-bottom: 250vh;
+                background: linear-gradient(to bottom, #46414180, #ffffff);
+            }
+
+            .Contact {
+                margin-top: 0;
+            }
+        }
     </style>
 </head>
 
@@ -396,7 +399,7 @@ margin-top:0;
 
                         <div class="row layout">
                             <div data-aos="zoom-in" class="card" style="position: relative;left: 50%;">
-                                <div class="card-header">
+                                <div class="header">
                                     <h3>Formation</h3>
                                 </div>
                                 <div class="body">
@@ -464,7 +467,7 @@ margin-top:0;
                     </div>
                 </div>
 
-                <div class="container-fluid travaux" style="background-color: #ebb00e;">
+                <div class="container-fluid travaux" style="background-color: rgb(73, 71, 92);">
                     <script>
                         AOS.init();
                     </script>
